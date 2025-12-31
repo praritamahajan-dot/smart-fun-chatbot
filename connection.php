@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db = "smartfun";
+$db = "YOUR_DB_NAME";
 
 $conn = new mysqli($host, $user, $pass, $db);
 if ($conn->connect_error) {
@@ -10,3 +10,4 @@ if ($conn->connect_error) {
 }
 session_start();
 ?>
+
