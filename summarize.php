@@ -8,8 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['text'])) {
     
     $text = $_POST['text'];
     
-    // YOUR ApyHub KEY HERE (100% SAFE in PHP)
-    $apyhub_key = "APY0fjTVhU4p6xBQ0BIBhYkShXhtKnpPXkWaBARdbSogOnLqL6zYz6NYxJTBWdRj92o";
+    $apyhub_key = "YOUR_API_KEY";
     
     $data = [
         'text' => $text,
@@ -53,3 +52,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['text'])) {
     echo json_encode(['error' => 'No text provided']);
 }
 ?>
+
