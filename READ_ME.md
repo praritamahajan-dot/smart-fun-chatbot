@@ -1,4 +1,4 @@
-Smart \& Fun Chatbot
+Smart & Fun Chatbot
 
 
 
@@ -7,106 +7,54 @@ Smart \& Fun Chatbot is a full-stack web application that combines study assista
 The project provides AI-powered study tools, an interactive chatbot, games, and user authentication, all running on a local server environment.
 
 
-
 This project is designed to run locally using XAMPP and demonstrates practical use of frontend and backend technologies.
 
 
 
-
-
-
-
 ---
-
-
-
-
 
 
 
 Features
 
-
-
 * User authentication system (Sign Up \& Login)
-
-
 
 * Secure storage of user data using MySQL
 
-
-
 * AI-powered chatbot for interactive conversations
-
-
 
 * Text summarization feature for study notes
 
-
-
 * Multiple interactive games:
-
-
-
 1. Quiz Game
-   
 2. Guess the Number
-   
 3. Rock Paper Scissors
-
-
 
 * Clean, responsive, and user-friendly interface
 
 
 
-
-
-
-
 ---
-
-
-
-
-
-
 
 
 
 Technologies Used
 
-
-
 * HTML
-
-
 
 * CSS
 
-
-
 * JavaScript
-
-
 
 * PHP
 
-
-
 * MySQL
-
-
 
 * XAMPP (Apache \& MySQL Server)
 
 
 
-
-
 ---
-
-
 
 
 
@@ -128,113 +76,7 @@ http://localhost/smart-fun-chatbot
 
 
 
-
-
 ---
-
-
-
-
-
-Screenshots
-
-
-
-Below are some screenshots of the working application:
-
-
-
-
-
-
-
-\## 📸 Screenshots
-
-
-
-\### 🚀 Chat Page
-
-!\[Chat](screenshots/chat.png)
-
-
-
-\### 🔐 Login Page
-
-!\[Login Page](screenshots/login.png)
-
-
-
-\### 🏠 Dashboard
-
-!\[Dashboard](screenshots/dashboard.png)
-
-
-
-\### 🎮 Games
-
-!\[Games](screenshots/games.png)
-
-
-
-\### Signup Page
-
-!\[Signup Page] (screenshots/signup.png)
-
-
-
-\### Quiz Game
-
-!\[Quiz] (screenshots/quiz.png)
-
-
-
-\### Rock Paper Scissor Game
-
-!\[RPS] (screenshots/rock\_paper\_scissor.png)
-
-
-
-\### Random Number Game
-
-!\[Random Number] (screenshots/random\_number.png)
-
-
-
-\### Theme
-
-!\[light theme] (screenshots/theme.png)
-
-
-
-\### Database Page
-
-!\[Database] (screenshots/database.png)
-
-
-
-\### Study Page
-
-!\[Study] (screenshots/study.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-
 
 
 
@@ -309,4 +151,5 @@ Author
 Prarita Mahajan
 
 BCA Student
+
 
