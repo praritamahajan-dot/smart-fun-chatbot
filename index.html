@@ -265,7 +265,7 @@ async function analyzeText() {
   result.innerHTML = '<div class="loading">🤖 AI Summarizing...</div>';
   
   try {
-    // THESE 3 LINES - PHP PROXY (KEYS SAFE!)
+    
     const formData = new FormData();
     formData.append('text', text);
     const response = await fetch('summarize.php', {method: 'POST', body: formData});
@@ -294,7 +294,7 @@ function addChatMessage(text, sender) {
   msgDiv.innerHTML = text;
   messagesDiv.appendChild(msgDiv);
   messagesDiv.scrollTop = messagesDiv.scrollHeight;
-  return msgDiv;  // ← This line was missing!
+  return msgDiv;  
 }
 
 async function sendChat() {
@@ -305,7 +305,6 @@ async function sendChat() {
     const loadingMessage = addChatMessage('🤖 AI Thinking...', 'bot');
     
     try {
-        // PHP PROXY - 3 LINES (SECURE!)
         const formData = new FormData();
         formData.append('message', msg);
         const response = await fetch('chat.php', {
@@ -499,7 +498,6 @@ function showQuizQuestion() {
     `;
     return;
   }
-  // ... rest of your existing code for showing questions
 
 
   
@@ -626,4 +624,5 @@ function rps(playerChoice) {
 </script>
 </body>
 </html>
+
                
